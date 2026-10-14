@@ -1,0 +1,115 @@
+function divideNoPivo(array) {
+ let pivo = array[Math.floor(array.length / 2)];
+ encontraMenores(pivo, array);
+
+ return array;
+}
+function divideNoPivo(array) {
+ let pivo = array[Math.floor(array.length / 2)];
+ encontraMenores(pivo, array);
+ let valoresMenores = 0;
+
+ for(let analisando = 0; analisando < array.length; analisando++) {
+   let atual = array[analisando];
+ }
+
+ return array;
+}
+function divideNoPivo(array) {
+ let pivo = array[Math.floor(array.length / 2)];
+ encontraMenores(pivo, array);
+ let valoresMenores = 0;
+
+ for(let analisando = 0; analisando < array.length; analisando++) {
+   let atual = array[analisando];
+   if(atual.preco <= pivo.preco && atual !== pivo) {
+     trocaLugar(array, analisando, valoresMenores)
+     valoresMenores++
+   }
+ }
+
+ return array;
+}
+[
+ {
+   titulo: "Go",
+   preco: 45
+ },
+ {
+   titulo: "C++",
+   preco: 35
+ },
+ {
+   titulo: "Java",
+   preco: 30
+ },
+ {
+ titulo: "PHP",
+ preco: 15
+ },
+ {
+   titulo: "Elixir",
+   preco: 50
+ },
+ {
+   titulo: "Rust",
+   preco: 22
+ },
+ // restante dos elementos
+]
+[
+ {
+   titulo: "Go",
+   preco: 45
+ },
+ {
+   titulo: "C++",
+   preco: 35
+ },
+ {
+   titulo: "Rust",
+   preco: 22
+ },
+ {
+ titulo: "PHP",
+ preco: 15
+ },
+ {
+   titulo: "Elixir",
+   preco: 50
+ },
+ {
+   titulo: "Java",
+   preco: 30
+ },
+
+ // restante dos elementos
+]
+[
+ {
+   titulo: "PHP",
+   preco: 15
+ },
+ {
+   titulo: "C++",
+   preco: 35
+ },
+ {
+   titulo: "Rust",
+   preco: 22
+ },
+ {
+   titulo: "Go",
+   preco: 45
+ },
+ {
+   titulo: "Elixir",
+   preco: 50
+ },
+ {
+   titulo: "Java",
+   preco: 30
+ },
+
+ // restante dos elementos
+]
