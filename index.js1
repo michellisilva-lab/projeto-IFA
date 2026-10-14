@@ -113,3 +113,27 @@ function divideNoPivo(array) {
 
  // restante dos elementos
 ]
+console.log(busca(listaLivros, 0, listaLivros.length - 1, 1));
+]
+/<diretório>/aula-4/busca.js:11
+  if (valorBuscado === atual.preco) {
+                             ^
+
+TypeError: Cannot read property 'preco' of undefined
+function busca(array, de, ate, valorBuscado) {
+ console.log('de, ate', de, ate)
+ //restante do código
+}
+de, ate 0 10
+de, ate 0 4
+de, ate 0 1
+de, ate 0 -1
+ if (valorBuscado < atual.preco) {
+   return busca(array, de, meio - 1, valorBuscado);
+ }
+ console.log(busca(listaLivros, 0, listaLivros.length - 1, 36));
+ RangeError: Maximum call stack size exceeded
+ de, ate 8 7
+de, ate 8 7
+de, ate 8 7
+de, ate 8 7
